@@ -1,0 +1,14 @@
+/*
+Theme Name:     Altenholzer Hundefreunde e.V.
+Theme URI:      http://www.altenholzer-hundefreunde.de/
+Description:    Oberflächengestaltung für die Wordpress-Seite des Altenholzer Hundefreunde e.V.
+                Seitenaufbau:
+				Kopf (volle Breite) mit Navigation (Fix oben) und Slider auf der Startseite bzw. Bild auf den Inhaltsseiten
+				Informationswidget (volle Breite) wird nur angezeigt, sofern Text vorhanden.
+				Sidebar (Widgetbereich) über 4 Spalten || Inhalt über 8 Spalten
+				Fußbereich (volle Breite):
+				1 Spalte (Logo) || 2 Spalten (Anschriftwidget) || 6 Spalten (Platzhalter) || 1 Spalte (Kontaktlinkwidget) || 1 Spalte (Impressumlinkwidget) || 1 Spalte (Datenschutzlinkwidget)
+				Anmerkung: style.css ist lediglich eine Beschreibungsdatei
+Author:         Jens Ohlmeyer
+Version:        1.0
+*/

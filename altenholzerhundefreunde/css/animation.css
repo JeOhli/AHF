@@ -1,0 +1,14 @@
+/* animationen */
+#wichtig {
+	animation: 3s ease-in-out 3s wichtig;
+}
+
+@keyframes wichtig {
+	from, 33%, 66%, to {
+		opacity: 1;
+	}
+	
+	16%, 50%, 82% {
+		opacity: 0;
+	}
+}

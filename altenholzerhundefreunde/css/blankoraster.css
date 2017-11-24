@@ -1,0 +1,48 @@
+/* Raster größer Netbook */
+*  {
+	box-sizing: border-box;
+}
+
+.raster {
+	width: 100%;
+}
+
+.zeile {
+	/* border: solid 1px red; */
+}
+
+.zeile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+[class*="spalten-"] {
+	/* border: solid 1px white; */
+}
+
+.spalten-01 {width: 8.33%; float: left; padding: 15px;}
+.spalten-02 {width: 16.66%; float: left; padding: 15px;}
+.spalten-03 {width: 25%; float: left; padding: 15px;}
+.spalten-04 {width: 33.33%; float: left; padding: 15px;}
+.spalten-05 {width: 41.66%; float: left; padding: 15px;}
+.spalten-06 {width: 50%; float: left; padding: 15px;}
+.spalten-07 {width: 58.33%; float: left; padding: 15px;}
+.spalten-08 {width: 66.66%; float: left; padding: 15px;}
+.spalten-09 {width: 75%; float: left; padding: 15px;}
+.spalten-10 {width: 83.33%; float: left; padding: 15px;}
+.spalten-11 {width: 91.66%; float: left; padding: 15px;}
+.spalten-12 {width: 100%; float: left; padding: 15px;}
+
+.spalten-vorschub-01 {margin-left: 8.33%; float: left; padding: 15px;}
+.spalten-vorschub-02 {margin-left: 16.66%; float: left; padding: 15px;}
+.spalten-vorschub-03 {margin-left: 25%; float: left; padding: 15px;}
+.spalten-vorschub-04 {margin-left: 33.33%; float: left; padding: 15px;}
+.spalten-vorschub-05 {margin-left: 41.66%; float: left; padding: 15px;}
+.spalten-vorschub-06 {margin-left: 50%; float: left; padding: 15px;}
+.spalten-vorschub-07 {margin-left: 58.33%; float: left; padding: 15px;}
+.spalten-vorschub-08 {margin-left: 66.66%; float: left; padding: 15px;}
+.spalten-vorschub-09 {margin-left: 75%; float: left; padding: 15px;}
+.spalten-vorschub-10 {margin-left: 83.33%; float: left; padding: 15px;}
+.spalten-vorschub-11 {margin-left: 91.66%; float: left; padding: 15px;}

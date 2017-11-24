@@ -1,0 +1,9 @@
+/* sonderdefinition Fußbereich */
+@media (max-width: 1366px) {
+	#fussbereich #platzhalter{
+		padding: 0px;
+		margin: 0px;
+		width: 0px;
+		visibility: hidden;
+	}
+}

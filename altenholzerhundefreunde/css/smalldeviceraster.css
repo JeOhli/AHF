@@ -1,0 +1,78 @@
+/* Raster für Tablets */
+@media (max-width: 989px) {
+	[class*="spalten-"] {
+		width: 100%;
+	}
+
+	#platzhalter,
+	#pfote,
+	#karussel
+	{
+		padding: 0px;
+		margin: 0px;
+		height: 0px;
+		visibility: hidden;
+	}
+
+	#navigation {
+		padding: 0px;
+		position: fixed;
+		width: 100%;
+		background-color: rgba(13, 16, 49, 1);
+		z-index: 50; /* zeige das Menü immer im Vordergrund */
+	}
+
+	#titel {
+		padding: 5px 15px 5px 15px;
+		height: auto !important;
+	}
+
+	#menu {
+		padding: 0px;
+	}
+	
+	#beschreibung {
+		position: absolute;
+		margin-top: 75px !important;
+		margin: 0;
+		width: 100%;
+		z-index: 40; /* zeige die beschreibung immer im Vordergrund */
+	}
+
+	#untertitel {
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	
+	#bildmobil,
+	#hintergrundbild
+	{
+		width: 100%;
+		height: 200px;
+		background-image: url("../images/bg2017.jpg");
+		background-repeat: no-repeat;
+		background-position: center-top;
+	}
+	
+	#aktuelles {
+		background: rgba(13, 16, 49, 1);
+	}
+	
+	/* spezifische Anpassungen nur für Mobilgeräte */
+	#logo {
+		position: relative;
+		height: 210px;
+	}
+	
+	#logo .widget img {
+		position: absolute;
+		top: -99999px;
+		bottom: -99999px;
+		left: -99999px;
+		right:-99999px;
+		margin: auto;
+	}
+	
+	#link p{
+		text-align: center !important;
+	}
+}

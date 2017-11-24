@@ -1,0 +1,135 @@
+/* Styling Altenholzer Hundefreunde e.V. */
+/* globale Definitionen */
+/* rasterspezifische Definitionen */
+@media (min-width: 990px) {
+	#platzhalter {
+		background-color: transparent;
+		border: solid 1px transparent;
+	}
+
+	#navigation {
+		padding-top: 0px;
+		position: fixed;
+		width: 100%;
+		background-image: url(../images/bg-top.png);
+		background-repeat: repeat-x;
+		z-index: 50; /* zeige das Menü immer im Vordergrund */
+	}
+
+	#titel {
+		margin-top: 25px;
+		height: 93px;
+	}
+
+	#menu {
+		margin-top: 15px;
+	}
+
+	#karussel  {
+		width: 100%;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+	#bildmobil {
+		padding: 0px;
+		margin: 0px;
+		height: 0px;
+		visibility: hidden;
+	}
+
+	#hintergrundbild {
+		width: 100%;
+		height: 300px;
+		background-image: url("../images/bg2017.jpg");
+		background-repeat: no-repeat;
+		background-position: center-top;
+	}
+
+	#beschreibung {
+		position: absolute;
+		padding-top: 110px;
+		margin: 0;
+		width: 100%;
+		height: 20px;
+		background-color: transparent;
+		z-index: 40; /* zeige die beschreibung immer im Vordergrund */
+	}
+
+	#untertitel {
+		background-color: rgba(255,255,255,0.8);
+	}
+
+	#aktuelles {
+		padding-left: 200px;
+		background: rgba(13, 16, 49, 0.7);
+	}
+
+	#aktuelles h6 {
+		margin-bottom: 7px;
+		display: inline-block;
+	}
+
+	#aktuelles img {
+		float: left;
+		margin-right: 15px;
+		border: 3px solid #fff;
+	}
+
+	beitragsbildohnetext {
+		float: right;
+		margin-right: 15px;
+		border: 3px solid #fff;
+	}
+
+	#aktuelles img::after,
+	beitragsbildohnetext::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	beitragsbild {
+		float: right;
+		margin-right: 15px;
+	}
+
+	beitragsbild::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	#inhalt h1 {
+		margin-bottom: 21px;
+		margin-top: 0px;
+	}
+
+	#inhalt ul {
+		padding-bottom: 15px;
+		margin-left: 40px;
+	}
+
+	#seitenbereich {
+		padding-top: 25px;
+	}
+
+	#seitenbereich hr {
+		border-top: dotted 1px #ccc;
+		border-bottom: dotted 1px #ccc;
+	}
+
+	#fussbereich {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: space-around;
+	}
+
+	#logo {
+		height: 210px;
+		width: 210px;
+	}
+}
